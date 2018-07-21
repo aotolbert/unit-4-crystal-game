@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel"stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<div class="container">
+
+    <div class="row">
+
+        <h1 class="mr-auto ml-auto mb-5 mt-3">The Crystal Collector Game!</h1>
+    </div>
+
+
+
+    <div class="row">
+
+        <!--Instructions-->
+        <div class="col-sm-5 p-3 pr-5 mt-5 display-5">
+
+                <h4>Hey there!! Thanks for stopping by to play Crystal Collector with me. The game is pretty simple. 
+                    
+                <br><br>-I will choose a random number that will become the "Target Score" as well as assigning hidden values to the crystals you see to the right. 
+                
+                <br><br>-The object of the game is to discern what values each crystal holds and add them together in a way that allows your score to match the target score exactly but be careful, if you go over, even by just one, you lose!! 
+                
+                <br><br>-Click on any crystal to begin!</h4>
+
+
+        </div>
+
+        <div class="col-sm-7 p-3">
+
+            <!--Numbers-->
+            <div class="row">
+                <div class="col-sm-6 border shadow" id="comscore">
+                    
+
+                </div>
+
+                <div class="col-sm-6 border shadow" id="userscore">
+                    
+
+                </div>
+
+            </div>
+
+            <br>
+
+            <!--Win Loss Counter-->
+            <div class="row">
+                <div class="col-sm-7 mr-auto ml-auto" id="winloss"> 
+
+                </div>
+            </div>
+            
+            <br>
+
+            <!-- Crystals -->
+            <div class="row">
+
+                <div class="col-sm-12 pl-5 mr-auto ml-auto">
+
+                <img src="assets/images/blue_crystal.jpg" class="w-25 border shadow" id="bluecrystal">
+                <img src="assets/images/green_crystal.jpg" class="w-25 border shadow" id="greencrystal">
+                <img src="assets/images/purple_crystal.jpg" class="w-25 mr-0 border shadow" id="purplecrystal">
+                <br>
+                <br>
+                <img src="assets/images/red_crystal.jpg" class="w-25 border shadow" id="redcrystal">
+                <img src="assets/images/clear_crystal.jpg" class="w-25 border shadow" id="clearcrystal">
+                <img src="assets/images/gold_crystal.jpg" class="w-25 mr-0 border shadow" id="goldcrystal">  
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    
+
+    <script src="assets/javascript/game.js">
+
+
+
+        
+    </script>
+
+</body>
+</html>
